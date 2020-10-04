@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyNotesUI", "StickyNotesUI\StickyNotesUI.csproj", "{2E6A189F-25B3-4E72-8313-3C5FE51ECAD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyNotes.Lib", "StickyNotes.Lib\StickyNotes.Lib.csproj", "{A0CBAE9E-6B01-4973-96B7-ABF16813E0F5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E6A189F-25B3-4E72-8313-3C5FE51ECAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6A189F-25B3-4E72-8313-3C5FE51ECAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6A189F-25B3-4E72-8313-3C5FE51ECAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6A189F-25B3-4E72-8313-3C5FE51ECAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CBAE9E-6B01-4973-96B7-ABF16813E0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CBAE9E-6B01-4973-96B7-ABF16813E0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CBAE9E-6B01-4973-96B7-ABF16813E0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CBAE9E-6B01-4973-96B7-ABF16813E0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
